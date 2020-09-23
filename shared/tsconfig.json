@@ -2,8 +2,7 @@
   "extends": "./tsconfig-base.json",
   "compilerOptions": {
     "composite": true,
-    "outDir": "../target-tsc-build/",
-    "rootDir": ".."
+    "outDir": "../target-tsc-build/shared/"
   },
   "files": ["./index.ts"]
 }

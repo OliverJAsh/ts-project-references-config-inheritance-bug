@@ -2,8 +2,7 @@
   "extends": "../shared/tsconfig-base.json",
   "compilerOptions": {
     "composite": true,
-    "outDir": "../target-tsc-build/",
-    "rootDir": ".."
+    "outDir": "../target-tsc-build/webpack/"
   },
   "files": ["./index.ts"],
   "references": [
