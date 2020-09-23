@@ -1,4 +1,6 @@
 ```bash
+yarn
+
 # No errors ✅
 tsc --build webpack/tsconfig.json --force --verbose
 
