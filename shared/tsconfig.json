@@ -1,5 +1,5 @@
 {
-  "extends": "./tsconfig-base.json",
+  "include": ["./typings-base/"],
   "compilerOptions": {
     "composite": true,
     "outDir": "../target-tsc-build/",
