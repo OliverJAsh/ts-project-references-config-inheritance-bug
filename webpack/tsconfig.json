@@ -1,0 +1,14 @@
+{
+  "extends": "../shared/tsconfig-base.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "../target-tsc-build/",
+    "rootDir": ".."
+  },
+  "files": ["./index.ts"],
+  "references": [
+    {
+      "path": "../shared/tsconfig.json"
+    }
+  ]
+}

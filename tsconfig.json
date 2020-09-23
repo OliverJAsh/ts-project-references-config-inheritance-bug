@@ -1,0 +1,11 @@
+{
+  "references": [
+    {
+      "path": "./shared/tsconfig.json"
+    },
+    {
+      "path": "./webpack/tsconfig.json"
+    }
+  ],
+  "files": []
+}
