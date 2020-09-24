@@ -1,14 +1,10 @@
 {
   "extends": "../shared/tsconfig-base.json",
+  "files": ["./service-worker.ts"],
   "compilerOptions": {
     "composite": true,
     "outDir": "../target-tsc-build/",
-    "rootDir": ".."
-  },
-  "files": ["./index.ts"],
-  "references": [
-    {
-      "path": "../shared/tsconfig.json"
-    }
-  ]
+    "rootDir": "..",
+    "lib": ["WebWorker"]
+  }
 }

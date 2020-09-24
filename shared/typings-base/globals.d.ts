@@ -1,1 +1,1 @@
-type Unrestricted = any;
+type Foo = import('pino').LevelWithSilent;

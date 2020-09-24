@@ -1,9 +1,11 @@
 ```bash
 yarn
 
-# No errors ✅
-tsc --build webpack/tsconfig.json --force --verbose
+# Expected error and got one ✅
+tsc --build tsconfig.json --clean && \
+    tsc --build tsconfig.json --verbose
 
-# Errors ❌
-tsc --build tsconfig.json --force --verbose
+# Expected error but got none ❌
+tsc --build service-worker/tsconfig.json --clean && \
+    tsc --build service-worker/tsconfig.json --verbose
 ```

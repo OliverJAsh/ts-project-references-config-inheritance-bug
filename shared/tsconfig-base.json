@@ -1,3 +1,5 @@
 {
-  "include": ["./typings-base/"]
+  "compilerOptions": { "types": [] },
+  "include": ["./typings-base/globals.d.ts"],
+  "files": []
 }
